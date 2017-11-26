@@ -45,6 +45,8 @@
 		D82630FF1FB814E700B42479 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82630E21FB814E700B42479 /* TransitionZoom.swift */; };
 		D82631001FB814E700B42479 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82630E31FB814E700B42479 /* UnwindSegue.swift */; };
 		D82631021FB823B600B42479 /* 07LogoTypeGothic-Condense.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D82631011FB823B500B42479 /* 07LogoTypeGothic-Condense.ttf */; };
+		D82AC4BE1FCA9B1C00E52C0D /* 三点リーダーアイコン2.png in Resources */ = {isa = PBXBuildFile; fileRef = D82AC4BD1FCA9B1B00E52C0D /* 三点リーダーアイコン2.png */; };
+		D8D270481FB9928300FDFC69 /* ロゴたいぷゴシック.otf in Resources */ = {isa = PBXBuildFile; fileRef = D8D270471FB9928200FDFC69 /* ロゴたいぷゴシック.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +112,8 @@
 		D82630E21FB814E700B42479 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		D82630E31FB814E700B42479 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
 		D82631011FB823B500B42479 /* 07LogoTypeGothic-Condense.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "07LogoTypeGothic-Condense.ttf"; sourceTree = "<group>"; };
+		D82AC4BD1FCA9B1B00E52C0D /* 三点リーダーアイコン2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "三点リーダーアイコン2.png"; sourceTree = "<group>"; };
+		D8D270471FB9928200FDFC69 /* ロゴたいぷゴシック.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ロゴたいぷゴシック.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +173,8 @@
 				D82630A11FB80C1300B42479 /* Info.plist */,
 				D82630C31FB80C9F00B42479 /* shirokuma.ttf */,
 				D82631011FB823B500B42479 /* 07LogoTypeGothic-Condense.ttf */,
+				D8D270471FB9928200FDFC69 /* ロゴたいぷゴシック.otf */,
+				D82AC4BD1FCA9B1B00E52C0D /* 三点リーダーアイコン2.png */,
 			);
 			path = originalapp;
 			sourceTree = "<group>";
@@ -252,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D82630BD1FB80C1300B42479 /* Build configuration list for PBXNativeTarget "originalappTests" */;
 			buildPhases = (
+				DBE3993C8FDD983CF991C6C7 /* [CP] Check Pods Manifest.lock */,
 				D82630A21FB80C1300B42479 /* Sources */,
 				D82630A31FB80C1300B42479 /* Frameworks */,
 				D82630A41FB80C1300B42479 /* Resources */,
+				7518B77D18A3A1B2AF61E2A6 /* [CP] Embed Pods Frameworks */,
+				3ACCD550E51D4B5E750376A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D82630C01FB80C1300B42479 /* Build configuration list for PBXNativeTarget "originalappUITests" */;
 			buildPhases = (
+				B3A74B9CE43A074F5F11B54E /* [CP] Check Pods Manifest.lock */,
 				D82630AD1FB80C1300B42479 /* Sources */,
 				D82630AE1FB80C1300B42479 /* Frameworks */,
 				D82630AF1FB80C1300B42479 /* Resources */,
+				01ED81B1CE2442B3B5EB5FE3 /* [CP] Embed Pods Frameworks */,
+				8DE16312F3B72F7EF82DB0C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -338,10 +350,12 @@
 				D82630C41FB80C9F00B42479 /* shirokuma.ttf in Resources */,
 				D82631021FB823B600B42479 /* 07LogoTypeGothic-Condense.ttf in Resources */,
 				D82630A01FB80C1300B42479 /* LaunchScreen.storyboard in Resources */,
+				D82AC4BE1FCA9B1C00E52C0D /* 三点リーダーアイコン2.png in Resources */,
 				D826309D1FB80C1300B42479 /* Assets.xcassets in Resources */,
 				D82630F31FB814E700B42479 /* LoadingView.xib in Resources */,
 				D82630F01FB814E700B42479 /* Info.plist in Resources */,
 				D826309B1FB80C1300B42479 /* Main.storyboard in Resources */,
+				D8D270481FB9928300FDFC69 /* ロゴたいぷゴシック.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +374,105 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01ED81B1CE2442B3B5EB5FE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-originalappUITests/Pods-originalappUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3ACCD550E51D4B5E750376A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-originalappTests/Pods-originalappTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7518B77D18A3A1B2AF61E2A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-originalappTests/Pods-originalappTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE16312F3B72F7EF82DB0C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-originalappUITests/Pods-originalappUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3A74B9CE43A074F5F11B54E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-originalappUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBE3993C8FDD983CF991C6C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-originalappTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D826308E1FB80C1300B42479 /* Sources */ = {
